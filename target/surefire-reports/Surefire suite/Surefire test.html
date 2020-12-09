@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Dec 08 01:58:40 EST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>139 seconds (139682 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='basic.selenium.E2ETestTest.EndToEnd()'><b>EndToEnd</b><br>Test class: basic.selenium.E2ETestTest</td>
+<td></td>
+<td>19</td>
+<td>basic.selenium.E2ETestTest@43738a82</td></tr>
+<tr>
+<td title='basic.selenium.HandleJavaScriptAlertTest.EndToEnd()'><b>EndToEnd</b><br>Test class: basic.selenium.HandleJavaScriptAlertTest</td>
+<td></td>
+<td>11</td>
+<td>basic.selenium.HandleJavaScriptAlertTest@1fc2b765</td></tr>
+<tr>
+<td title='basic.selenium.JavaScriptExecutorTest.javaScriptExecutor()'><b>javaScriptExecutor</b><br>Test class: basic.selenium.JavaScriptExecutorTest</td>
+<td></td>
+<td>15</td>
+<td>basic.selenium.JavaScriptExecutorTest@7403c468</td></tr>
+<tr>
+<td title='basic.selenium.AutoSuggestionDropdownTest.testAutoSuggestionDropdown()'><b>testAutoSuggestionDropdown</b><br>Test class: basic.selenium.AutoSuggestionDropdownTest</td>
+<td></td>
+<td>8</td>
+<td>basic.selenium.AutoSuggestionDropdownTest@2a70a3d8</td></tr>
+<tr>
+<td title='basic.selenium.DropdownTest.testDropdown()'><b>testDropdown</b><br>Test class: basic.selenium.DropdownTest</td>
+<td></td>
+<td>8</td>
+<td>basic.selenium.DropdownTest@51c8530f</td></tr>
+<tr>
+<td title='basic.selenium.DynamicDropdownAndHandlingCalenderTest.testDynamicDropdown()'><b>testDynamicDropdown</b><br>Test class: basic.selenium.DynamicDropdownAndHandlingCalenderTest</td>
+<td></td>
+<td>13</td>
+<td>basic.selenium.DynamicDropdownAndHandlingCalenderTest@289d1c02</td></tr>
+<tr>
+<td title='basic.selenium.FramesTest.testFrames()'><b>testFrames</b><br>Test class: basic.selenium.FramesTest</td>
+<td></td>
+<td>4</td>
+<td>basic.selenium.FramesTest@1d371b2d</td></tr>
+<tr>
+<td title='basic.selenium.DemoTest.testLocators()'><b>testLocators</b><br>Test class: basic.selenium.DemoTest</td>
+<td></td>
+<td>6</td>
+<td>basic.selenium.DemoTest@13eb8acf</td></tr>
+<tr>
+<td title='basic.selenium.SalesForceTest.testLocators()'><b>testLocators</b><br>Test class: basic.selenium.SalesForceTest</td>
+<td></td>
+<td>6</td>
+<td>basic.selenium.SalesForceTest@75881071</td></tr>
+<tr>
+<td title='basic.selenium.MultipleWindowsHandleTest.testMultipleWindows()'><b>testMultipleWindows</b><br>Test class: basic.selenium.MultipleWindowsHandleTest</td>
+<td></td>
+<td>5</td>
+<td>basic.selenium.MultipleWindowsHandleTest@c81cdd1</td></tr>
+<tr>
+<td title='basic.selenium.LinksTest.testScope()'><b>testScope</b><br>Test class: basic.selenium.LinksTest</td>
+<td></td>
+<td>15</td>
+<td>basic.selenium.LinksTest@22eeefeb</td></tr>
+<tr>
+<td title='basic.selenium.TableExerciseTest.testTableGrid()'><b>testTableGrid</b><br>Test class: basic.selenium.TableExerciseTest</td>
+<td></td>
+<td>3</td>
+<td>basic.selenium.TableExerciseTest@4e718207</td></tr>
+<tr>
+<td title='basic.selenium.DropdownAndCheckboxTest.testUpdatedDropdown()'><b>testUpdatedDropdown</b><br>Test class: basic.selenium.DropdownAndCheckboxTest</td>
+<td></td>
+<td>19</td>
+<td>basic.selenium.DropdownAndCheckboxTest@543c6f6d</td></tr>
+</table><p>
+</body>
+</html>
