@@ -12,7 +12,7 @@ public class LandingPageTest extends BaseApi {
         LandingPage landingPage = new LandingPage();
         landingPage.clickLogin();
         String welcomeMessage = landingPage.getWelcomeMessage();
-        Assert.assertEquals(welcomeMessage,"Log In to WebServices Testing using SoapUI ");
+        Assert.assertEquals(welcomeMessage,"Log In to WebServices Testing using SoapUI");
 
     }
 
