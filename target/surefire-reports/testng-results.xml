@@ -1,45 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-08T12:05:23Z" name="ActionClass Automation Script" finished-at="2020-12-08T12:05:37Z" duration-ms="14060">
+  <suite started-at="2020-12-18T03:46:28Z" name="qa click Automation Script " finished-at="2020-12-18T03:47:19Z" duration-ms="50422">
     <groups>
     </groups>
-    <test started-at="2020-12-08T12:05:23Z" name="Regression" finished-at="2020-12-08T12:05:37Z" duration-ms="14060">
-      <class name="pages.ActionDemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.ActionDemo@69a10787]" started-at="2020-12-08T12:05:23Z" name="setUp" finished-at="2020-12-08T12:05:30Z" duration-ms="6647" status="PASS">
+    <test started-at="2020-12-18T03:46:28Z" name="QA Click Academy Test" finished-at="2020-12-18T03:47:19Z" duration-ms="50422">
+      <class name="qa.click.academy.tests.LandingPageTest">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:qa.click.academy.tests.LandingPageTest@3d3fcdb0]" started-at="2020-12-18T03:46:28Z" name="createReport" finished-at="2020-12-18T03:46:29Z" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.click.academy.tests.LandingPageTest@3d3fcdb0]" started-at="2020-12-18T03:46:29Z" name="setUp" finished-at="2020-12-18T03:46:41Z" duration-ms="11476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="init()[pri:0, instance:pages.ActionDemo@69a10787]" started-at="2020-12-08T12:05:30Z" name="init" finished-at="2020-12-08T12:05:30Z" duration-ms="36" status="PASS">
+        <test-method signature="testLandingPage()[pri:0, instance:qa.click.academy.tests.LandingPageTest@3d3fcdb0]" started-at="2020-12-18T03:46:41Z" name="testLandingPage" finished-at="2020-12-18T03:46:43Z" duration-ms="2829" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="mouseHover()[pri:1, instance:pages.ActionDemo@69a10787]" started-at="2020-12-08T12:05:30Z" name="mouseHover" finished-at="2020-12-08T12:05:30Z" duration-ms="611" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mouseHover -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.ActionDemo@69a10787]" started-at="2020-12-08T12:05:30Z" name="tearUp" finished-at="2020-12-08T12:05:31Z" duration-ms="243" status="PASS">
+        </test-method> <!-- testLandingPage -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:qa.click.academy.tests.LandingPageTest@3d3fcdb0]" started-at="2020-12-18T03:46:43Z" name="tearUp" finished-at="2020-12-18T03:46:47Z" duration-ms="3975" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:pages.ActionDemo@69a10787]" started-at="2020-12-08T12:05:31Z" name="setUp" finished-at="2020-12-08T12:05:34Z" duration-ms="3428" status="PASS">
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:qa.click.academy.tests.LandingPageTest@3d3fcdb0]" started-at="2020-12-18T03:47:19Z" name="stopReport" finished-at="2020-12-18T03:47:19Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- qa.click.academy.tests.LandingPageTest -->
+      <class name="qa.click.academy.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.click.academy.tests.LoginPageTest@641147d0]" started-at="2020-12-18T03:46:47Z" name="setUp" finished-at="2020-12-18T03:46:57Z" duration-ms="9181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="init()[pri:0, instance:pages.ActionDemo@69a10787]" started-at="2020-12-08T12:05:34Z" name="init" finished-at="2020-12-08T12:05:34Z" duration-ms="1" status="PASS">
+        <test-method signature="testLoginPae(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qa.click.academy.tests.LoginPageTest@641147d0]" started-at="2020-12-18T03:46:57Z" name="testLoginPae" data-provider="getData" finished-at="2020-12-18T03:47:00Z" duration-ms="3240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonretricteduser.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- init -->
-        <test-method signature="writeInCaps()[pri:2, instance:pages.ActionDemo@69a10787]" started-at="2020-12-08T12:05:34Z" name="writeInCaps" finished-at="2020-12-08T12:05:37Z" duration-ms="2879" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- writeInCaps -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:pages.ActionDemo@69a10787]" started-at="2020-12-08T12:05:37Z" name="tearUp" finished-at="2020-12-08T12:05:37Z" duration-ms="194" status="PASS">
+        </test-method> <!-- testLoginPae -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:qa.click.academy.tests.LoginPageTest@641147d0]" started-at="2020-12-18T03:47:00Z" name="tearUp" finished-at="2020-12-18T03:47:04Z" duration-ms="3782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearUp -->
-      </class> <!-- pages.ActionDemo -->
-    </test> <!-- Regression -->
-  </suite> <!-- ActionClass Automation Script -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.click.academy.tests.LoginPageTest@641147d0]" started-at="2020-12-18T03:47:04Z" name="setUp" finished-at="2020-12-18T03:47:13Z" duration-ms="9342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginPae(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qa.click.academy.tests.LoginPageTest@641147d0]" started-at="2020-12-18T03:47:13Z" name="testLoginPae" data-provider="getData" finished-at="2020-12-18T03:47:15Z" duration-ms="2056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restructeduser.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67890]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonresytricte user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPae -->
+        <test-method is-config="true" signature="tearUp()[pri:0, instance:qa.click.academy.tests.LoginPageTest@641147d0]" started-at="2020-12-18T03:47:15Z" name="tearUp" finished-at="2020-12-18T03:47:19Z" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- qa.click.academy.tests.LoginPageTest -->
+    </test> <!-- QA Click Academy Test -->
+  </suite> <!-- qa click Automation Script  -->
 </testng-results>

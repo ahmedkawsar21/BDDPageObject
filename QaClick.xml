@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="qa click Automation Script " parallel="false" thread-count="3">
+    <listeners>
+        <listener class-name="testng.listeners.TestNGListeners">
+
+        </listener>
+    </listeners>
+<test name="Landing Page Test">
+    <classes>
+        <class name="qa.click.academy.tests.LandingPageTest">
+        </class>
+    </classes>
+</test>
+    <test name="login Page Test">
+        <classes>
+            <class name="qa.click.academy.tests.LoginPageTest">
+            </class>
+        </classes>
+</test>
+        </suite>

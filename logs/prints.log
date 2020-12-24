@@ -1,0 +1,28 @@
+01:12:56.277 [main] INFO  base.BaseApi - click on login button
+01:13:00.404 [main] INFO  base.BaseApi - entering username
+01:13:00.461 [main] INFO  base.BaseApi - entering password
+01:13:00.493 [main] INFO  base.BaseApi - click on confirm sign in
+01:13:00.739 [main] INFO  base.BaseApi - restricted user
+01:13:16.177 [main] INFO  base.BaseApi - click on login button
+01:13:18.491 [main] INFO  base.BaseApi - entering username
+01:13:18.544 [main] INFO  base.BaseApi - entering password
+01:13:18.576 [main] INFO  base.BaseApi - click on confirm sign in
+01:13:18.821 [main] INFO  base.BaseApi - nonresytricte user
+01:14:45.655 [main] INFO  qa.click.academy.tests.LoginPageTest - click on login button
+01:14:47.800 [main] INFO  qa.click.academy.tests.LoginPageTest - entering username
+01:14:47.857 [main] INFO  qa.click.academy.tests.LoginPageTest - entering password
+01:14:47.892 [main] INFO  qa.click.academy.tests.LoginPageTest - click on confirm sign in
+01:14:48.133 [main] INFO  qa.click.academy.tests.LoginPageTest - restricted user
+01:15:01.637 [main] INFO  qa.click.academy.tests.LoginPageTest - click on login button
+01:15:04.069 [main] INFO  qa.click.academy.tests.LoginPageTest - entering username
+01:15:04.128 [main] INFO  qa.click.academy.tests.LoginPageTest - entering password
+01:15:04.161 [main] INFO  qa.click.academy.tests.LoginPageTest - click on confirm sign in
+01:15:04.403 [main] INFO  qa.click.academy.tests.LoginPageTest - nonresytricte user
+01:21:24.817 [main] INFO  qa.click.academy.tests.LoginPageTest - click on login button
+01:21:27.585 [main] INFO  qa.click.academy.tests.LoginPageTest - entering username
+01:21:27.642 [main] INFO  qa.click.academy.tests.LoginPageTest - entering password
+01:21:27.677 [main] INFO  qa.click.academy.tests.LoginPageTest - click on confirm sign in
+01:22:02.480 [main] INFO  qa.click.academy.tests.LoginPageTest - click on login button
+01:22:05.081 [main] INFO  qa.click.academy.tests.LoginPageTest - entering username
+01:22:05.151 [main] INFO  qa.click.academy.tests.LoginPageTest - entering password
+01:22:05.190 [main] INFO  qa.click.academy.tests.LoginPageTest - click on confirm sign in
