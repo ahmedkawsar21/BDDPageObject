@@ -9,8 +9,7 @@ import qa.click.academy.pages.LandingPage;
 
 public class LandingPageTest extends BaseApi {
     @Test
-    public void testLandingPage(String browserName) {
-        browserName.equalsIgnoreCase("chrome");
+    public void testLandingPage() {
         LandingPage landingPage = new LandingPage();
         landingPage.clickLogin();
         String welcomeMessage = landingPage.getWelcomeMessage();

@@ -1,5 +1,9 @@
-/Users/kawsar/Documents/UiFramWork/src/main/java/utils/Pages.java
-/Users/kawsar/Documents/UiFramWork/src/main/java/utils/ReusableMethods.java
+/Users/kawsar/Documents/UiFramWork/src/main/java/qa/click/academy/pages/LandingPage.java
+/Users/kawsar/Documents/UiFramWork/src/main/java/qa/click/academy/pages/ForgotPasswordPage.java
+/Users/kawsar/Documents/UiFramWork/src/main/java/qa/click/academy/pages/LoginPage.java
+/Users/kawsar/Documents/UiFramWork/src/main/java/base/BaseApi.java
+/Users/kawsar/Documents/UiFramWork/src/main/java/base/ReusableMethods.java
 /Users/kawsar/Documents/UiFramWork/src/main/java/reporting/ExtentReport.java
+/Users/kawsar/Documents/UiFramWork/src/main/java/testng/listeners/TestNGListeners.java
+/Users/kawsar/Documents/UiFramWork/src/main/java/page/pages/Pages.java
 /Users/kawsar/Documents/UiFramWork/src/main/java/utils/ExcelReader.java
-/Users/kawsar/Documents/UiFramWork/src/main/java/utils/BaseApi.java
