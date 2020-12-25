@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-qa_click_Automation_Script_" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -130,21 +130,6 @@
           <div class="suite-qa_click_Automation_Script_-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">qa.click.academy.tests.LandingPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testLandingPage">
-                  </a> <!-- testLandingPage -->
-                  <span class="method-name">testLandingPage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-qa_click_Automation_Script_-class-passed -->
-          <div class="suite-qa_click_Automation_Script_-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">qa.click.academy.tests.LoginPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -166,6 +151,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-qa_click_Automation_Script_-class-passed -->
+          <div class="suite-qa_click_Automation_Script_-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">qa.click.academy.tests.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLandingPage">
+                  </a> <!-- testLandingPage -->
+                  <span class="method-name">testLandingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-qa_click_Automation_Script_-class-passed -->
         </div> <!-- panel qa_click_Automation_Script_ -->
         <div panel-name="test-xml-qa_click_Automation_Script_" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -179,12 +179,16 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;testng.listeners.TestNGListeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;3&quot; name=&quot;QA Click Academy Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Landing Page Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;qa.click.academy.tests.LandingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Landing Page Test --&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;login Page Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
       &lt;class name=&quot;qa.click.academy.tests.LoginPageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- QA Click Academy Test --&gt;
+  &lt;/test&gt; &lt;!-- login Page Test --&gt;
 &lt;/suite&gt; &lt;!-- qa click Automation Script  --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,7 +200,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">QA Click Academy Test (2 classes)</span>
+                <span class="test-name">Landing Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">login Page Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -226,15 +233,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testLoginPae')
 data.setCell(0, 2, 'qa.click.academy.tests.LoginPageTest')
-data.setCell(0, 3, 3240);
+data.setCell(0, 3, 3158);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testLandingPage')
-data.setCell(1, 2, 'qa.click.academy.tests.LandingPageTest')
-data.setCell(1, 3, 2829);
+data.setCell(1, 1, 'testLoginPae')
+data.setCell(1, 2, 'qa.click.academy.tests.LoginPageTest')
+data.setCell(1, 3, 3028);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testLoginPae')
-data.setCell(2, 2, 'qa.click.academy.tests.LoginPageTest')
-data.setCell(2, 3, 2056);
+data.setCell(2, 1, 'testLandingPage')
+data.setCell(2, 2, 'qa.click.academy.tests.LandingPageTest')
+data.setCell(2, 3, 2368);
 window.suiteTableData['qa_click_Automation_Script_']= { tableData: data, tableDiv: 'times-div-qa_click_Automation_Script_'}
 return data;
 }
@@ -254,18 +261,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-qa_click_Automation_Script_" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">qa.click.academy.tests.LoginPageTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">stopReport</span>
-                <br/>
-                <span class="ignored-method-name">createReport</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-qa_click_Automation_Script_" class="panel">
@@ -275,56 +273,45 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">qa.click.academy.tests.LandingPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">createReport</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">601 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLandingPage</span>
-                <span class="method-start">12078 ms</span>
+                <span class="method-start">12296 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">14908 ms</span>
+                <span class="method-start">14671 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">qa.click.academy.tests.LoginPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">18888 ms</span>
+                <span class="method-start">17360 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginPae(nonretricteduser.com, 12345, restricted user)</span>
-                <span class="method-start">28069 ms</span>
+                <span class="method-start">25949 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">31310 ms</span>
+                <span class="method-start">29107 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">35093 ms</span>
+                <span class="method-start">29853 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLoginPae(restructeduser.com, 67890, nonresytricte user)</span>
-                <span class="method-start">44435 ms</span>
+                <span class="method-start">38216 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearUp</span>
-                <span class="method-start">46491 ms</span>
+                <span class="method-start">41244 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">qa.click.academy.tests.LandingPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">stopReport</span>
-                <span class="method-start">50403 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

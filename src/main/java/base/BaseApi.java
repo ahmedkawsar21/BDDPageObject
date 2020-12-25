@@ -20,7 +20,8 @@ public class BaseApi {
     public static WebDriver driver;
     @BeforeMethod
     public void setUp() throws IOException {
-        String browserName = getGlobalProperties("browser");
+       // String browserName = getGlobalProperties("browser");
+        String browserName = System.getProperty("browser");
         if (browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
             driver = new ChromeDriver();
