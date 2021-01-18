@@ -1,9 +1,7 @@
 package qa.click.academy.tests;
 
 import base.BaseApi;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import qa.click.academy.pages.LandingPage;
 

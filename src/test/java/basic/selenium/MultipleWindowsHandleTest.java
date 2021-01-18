@@ -30,12 +30,6 @@ public class MultipleWindowsHandleTest {
         System.out.println(driver.getTitle());
         driver.switchTo().window(parentId);
         System.out.println(driver.getTitle());
-
-
-
-
-
-
         driver.quit();
     }
 }

@@ -12,7 +12,7 @@ import qa.click.academy.pages.LoginPage;
 public class LoginPageTest extends BaseApi {
     private static final Logger log = LogManager.getLogger(LoginPageTest.class);
     @Test(dataProvider = "getData")
-    public void testLoginPae(String userName, String emailPassword, String text) {
+    public void testLoginPae(String userName, String emailPassword, String text) throws InterruptedException {
         LandingPage landingPage = new LandingPage();
         log.info("click on login button");
         LoginPage loginPage = landingPage.clickLogin();
@@ -24,7 +24,8 @@ public class LoginPageTest extends BaseApi {
         loginPage.clickConfirmSignIn();
         log.info(text);
         ForgotPasswordPage forgotPasswordPage = loginPage.clickOnForgotPassword();
-        forgotPasswordPage.getEmailAddress();
+        forgotPasswordPage.getEmailAddress(userName);
+        Thread.sleep(2000);
         forgotPasswordPage.clickSendMeInstruction();
 
 

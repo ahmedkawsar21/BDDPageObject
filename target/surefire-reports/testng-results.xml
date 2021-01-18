@@ -1,87 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-25T17:29:57Z" name="qa click Automation Script " finished-at="2020-12-25T17:30:35Z" duration-ms="37988">
+  <suite started-at="2021-01-09T13:57:25Z" name="qa click Automation Script " finished-at="2021-01-09T13:57:25Z" duration-ms="3">
     <groups>
     </groups>
-    <test started-at="2020-12-25T17:29:57Z" name="Landing Page Test" finished-at="2020-12-25T17:30:09Z" duration-ms="12184">
-      <class name="qa.click.academy.tests.LandingPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.click.academy.tests.LandingPageTest@515aebb0]" started-at="2020-12-25T17:29:57Z" name="setUp" finished-at="2020-12-25T17:30:06Z" duration-ms="9486" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLandingPage()[pri:0, instance:qa.click.academy.tests.LandingPageTest@515aebb0]" started-at="2020-12-25T17:30:06Z" name="testLandingPage" finished-at="2020-12-25T17:30:09Z" duration-ms="2477" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLandingPage -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:qa.click.academy.tests.LandingPageTest@515aebb0]" started-at="2020-12-25T17:30:09Z" name="tearUp" finished-at="2020-12-25T17:30:09Z" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-      </class> <!-- qa.click.academy.tests.LandingPageTest -->
-    </test> <!-- Landing Page Test -->
-    <test started-at="2020-12-25T17:30:10Z" name="login Page Test" finished-at="2020-12-25T17:30:35Z" duration-ms="25013">
-      <class name="qa.click.academy.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.click.academy.tests.LoginPageTest@3d3e5463]" started-at="2020-12-25T17:30:10Z" name="setUp" finished-at="2020-12-25T17:30:20Z" duration-ms="10605" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginPae(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qa.click.academy.tests.LoginPageTest@3d3e5463]" started-at="2020-12-25T17:30:20Z" name="testLoginPae" data-provider="getData" finished-at="2020-12-25T17:30:24Z" duration-ms="3495" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[nonretricteduser.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[12345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[restricted user]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPae -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:qa.click.academy.tests.LoginPageTest@3d3e5463]" started-at="2020-12-25T17:30:24Z" name="tearUp" finished-at="2020-12-25T17:30:24Z" duration-ms="129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:qa.click.academy.tests.LoginPageTest@3d3e5463]" started-at="2020-12-25T17:30:24Z" name="setUp" finished-at="2020-12-25T17:30:31Z" duration-ms="7161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testLoginPae(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:qa.click.academy.tests.LoginPageTest@3d3e5463]" started-at="2020-12-25T17:30:31Z" name="testLoginPae" data-provider="getData" finished-at="2020-12-25T17:30:35Z" duration-ms="3471" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[restructeduser.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[67890]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[nonresytricte user]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginPae -->
-        <test-method is-config="true" signature="tearUp()[pri:0, instance:qa.click.academy.tests.LoginPageTest@3d3e5463]" started-at="2020-12-25T17:30:35Z" name="tearUp" finished-at="2020-12-25T17:30:35Z" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearUp -->
-      </class> <!-- qa.click.academy.tests.LoginPageTest -->
-    </test> <!-- login Page Test -->
+    <test started-at="2021-01-09T13:57:25Z" name="cucumber step definitions test" finished-at="2021-01-09T13:57:25Z" duration-ms="3">
+    </test> <!-- cucumber step definitions test -->
   </suite> <!-- qa click Automation Script  -->
 </testng-results>

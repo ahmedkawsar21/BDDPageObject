@@ -9,7 +9,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -20,8 +19,10 @@ public class BaseApi {
     public static WebDriver driver;
     @BeforeMethod
     public void setUp() throws IOException {
-       // String browserName = getGlobalProperties("browser");
-        String browserName = System.getProperty("browser");
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless");
+        String browserName = getGlobalProperties("browser");
+        //String browserName = System.getProperty("browser");
         if (browserName.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver");
             driver = new ChromeDriver();

@@ -17,8 +17,8 @@ public class ForgotPasswordPage extends BaseApi {
         PageFactory.initElements(driver,this);
     }
 
-    public WebElement getEmailAddress() {
-        emailAddress.sendKeys("abc@fw.com");
+    public WebElement getEmailAddress(String userName) {
+        emailAddress.sendKeys(userName);
         return emailAddress;
     }
 

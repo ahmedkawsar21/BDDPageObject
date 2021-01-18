@@ -8,8 +8,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import reporting.ExtentReport;
-
 import java.io.IOException;
+
 
 public class TestNGListeners extends BaseApi implements ITestListener {
     ExtentTest test;
@@ -29,13 +29,11 @@ public class TestNGListeners extends BaseApi implements ITestListener {
     public void onTestFailure(ITestResult iTestResult) {
         extentTest.get().fail(iTestResult.getThrowable());
         String methodName = iTestResult.getMethod().getMethodName();
-
         try {
             extentTest.get().addScreenCaptureFromPath(getScreenShotPath(methodName),iTestResult.getMethod().getMethodName());
         } catch (IOException e) {
             e.printStackTrace();
-        }
-
+            }
     }
 
     public void onTestSkipped(ITestResult iTestResult) {

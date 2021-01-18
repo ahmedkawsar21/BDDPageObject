@@ -1,0 +1,285 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-09T13:57:49.229Z",
+        "line": 3,
+        "name": "Landing page default login",
+        "description": "",
+        "id": "qa-click-login-page;landing-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7300816000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User already on landing page",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_already_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2021529000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click on login Button",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_click_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30189000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to login page",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_navigate_to_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124957000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "welcome message displayed",
+            "match": {
+              "location": "stepDefinations.StepDefinition.welcome_message_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LandingPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T13:57:58.887Z",
+        "line": 18,
+        "name": "Login page check with different user",
+        "description": "",
+        "id": "qa-click-login-page;login-page-check-with-different-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9948529000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User already on login page",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175762000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"qa123\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa123\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinations.StepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71272000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on login bar",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_click_on_login_bar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 402925000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on forgot password button",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_click_on_forgot_password_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67528000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"qa123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa123\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinations.StepDefinition.user_enters(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 254235000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on send instructions button",
+            "match": {
+              "location": "stepDefinations.StepDefinition.click_on_send_instructions_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-09T13:58:09.825Z",
+        "line": 19,
+        "name": "Login page check with different user",
+        "description": "",
+        "id": "qa-click-login-page;login-page-check-with-different-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8432195000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User already on login page",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185785000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"qa456\" and \"45678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa456\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"45678\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinations.StepDefinition.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77834000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on login bar",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_click_on_login_bar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 394519000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User click on forgot password button",
+            "match": {
+              "location": "stepDefinations.StepDefinition.user_click_on_forgot_password_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67855000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"qa456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qa456\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinations.StepDefinition.user_enters(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175657000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on send instructions button",
+            "match": {
+              "location": "stepDefinations.StepDefinition.click_on_send_instructions_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@LoginPage"
+          }
+        ]
+      }
+    ],
+    "name": "Qa click Login Page",
+    "description": "",
+    "id": "qa-click-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
